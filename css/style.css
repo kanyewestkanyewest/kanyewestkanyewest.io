@@ -1,0 +1,66 @@
+img{
+  width:300px;
+  height:400px;
+transition:width 2s, height 2s;
+filter: grayscale(100%);
+}
+img:hover{
+  width:400px;
+  height:400px;
+}
+body {
+background-image:url();
+}
+body {
+  background-color:lightblue;
+}
+body{
+  font-family:Georgia;
+}
+p{
+  font-size:25px
+}
+body{
+  text-align:center;
+}
+h1{
+color:white;
+}
+a{
+  font-size:40px;
+}
+.btn {
+  width: 330px;
+   padding: 150px;
+   border: 20px solid gray;
+   margin: 0;
+}
+.active, .btn:active{
+  background-color: #87CEFA;
+  color: white;
+  background-image:url(https://cdn.pastemagazine.com/www/articles/ericandre4main.jpg);
+
+}
+button {
+  background-image:url();
+  letter-spacing:0px;
+}
+@-webkit-keyframes mymove {
+  from {background-color: red;}
+  to {background-color: blue;}
+}
+
+@keyframes mymove {
+  from {background-color: red;}
+  to {background-color: blue;}
+}
+img:hover{
+  -webkit-filter: grayscale(0%);
+ filter: grayscale(0%);
+}
+div {
+  padding-top: 50px;
+  padding-right: 20px;
+  padding-bottom: 30px;
+  padding-left: 75px;
+}
